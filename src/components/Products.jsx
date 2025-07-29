@@ -25,6 +25,27 @@ const Products = () => {
 
   return (
     <>
+      <nav class="max-w-6xl container mx-auto flex justify-between items-center px-6 py-4 bg-white shadow-md">
+        <div class="text-xl font-bold">EduSite</div>
+        <ul class="hidden md:flex gap-6">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Courses</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+        </ul>
+        <div class="hidden md:flex gap-2">
+          <button class="text-blue-600">Login</button>
+          <button class="bg-blue-600 text-white px-4 py-2 rounded">
+            Signup
+          </button>
+        </div>
+      </nav>
+
       <div className="container mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold text-center mb-8">List Products</h1>
 
